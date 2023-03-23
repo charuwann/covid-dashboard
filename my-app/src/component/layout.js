@@ -13,7 +13,7 @@ const headers = {
 
 function Layout() {
   const [data, setData] = useState();
-  const api = 'https://covid19.traffy.in.th/api/state-covid19';
+  const api = 'http://localhost:3080/covid';
   const handleGetData = async() => {
     const response = await axios(api);
     if (response.status === 200) {
