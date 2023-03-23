@@ -1,2 +1,5 @@
-# react-nodejs-docker-compose
-Example project on how to develop project on Docker Compose
+##how to start project
+1. run below command at current directory
+`docker-compose up`
+
+2. add plugin cors unblock in browser for allow origin

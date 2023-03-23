@@ -5,6 +5,7 @@ WORKDIR /usr/src/app/api
 COPY package*.json ./
 
 RUN npm install
+RUN npm install cors
 
 EXPOSE 3080
 

@@ -1,0 +1,40 @@
+.airport-data {
+  margin: 5% 10%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 80%;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.airport-data-topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 50px;
+}
+
+.airport-data-total {
+  width: 30%;
+  height: auto;
+  background-color: rgb(255, 247, 205);
+  border-radius: 10px;
+  margin-left: 10%;
+  color: rgb(122, 79, 1);
+}
+
+.airport-chart {
+  width: 60%;
+}
+
+.total-topic{
+  font-size: 1.7vw;
+}
+
+.total-text{
+  font-size: 6vw;
+  padding: auto 0;
+}
